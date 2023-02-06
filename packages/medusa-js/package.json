@@ -15,6 +15,7 @@
   "author": "Oliver Juhl",
   "license": "MIT",
   "dependencies": {
+    "@gofit/server": "link:/home/dan/projects/gofit",
     "@medusajs/medusa": "^1.6.2",
     "axios": "^0.24.0",
     "form-data": "^4.0.0",

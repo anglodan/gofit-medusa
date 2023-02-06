@@ -2493,6 +2493,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@gofit/server@link:/home/dan/projects/gofit::locator=%40medusajs%2Fmedusa-js%40workspace%3Apackages%2Fmedusa-js":
+  version: 0.0.0-use.local
+  resolution: "@gofit/server@link:/home/dan/projects/gofit::locator=%40medusajs%2Fmedusa-js%40workspace%3Apackages%2Fmedusa-js"
+  languageName: node
+  linkType: soft
+
 "@graphql-codegen/add@npm:^3.1.1":
   version: 3.2.0
   resolution: "@graphql-codegen/add@npm:3.2.0"
@@ -4321,6 +4327,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@medusajs/medusa-js@workspace:packages/medusa-js"
   dependencies:
+    "@gofit/server": "link:/home/dan/projects/gofit"
     "@medusajs/medusa": ^1.6.2
     "@types/jest": ^26.0.19
     axios: ^0.24.0
